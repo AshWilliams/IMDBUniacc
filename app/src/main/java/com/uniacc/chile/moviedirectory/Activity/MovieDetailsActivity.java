@@ -84,14 +84,14 @@ public class MovieDetailsActivity extends AppCompatActivity {
                                 }
 
                                 movieTitle.setText(response.getString("Title"));
-                                movieYear.setText("Released - " + response.getString("Released"));
-                                movieType.setText("Category - " + response.getString("Type"));
+                                movieYear.setText("Estreno - " + response.getString("Released"));
+                                movieType.setText("Categoría - " + response.getString("Type"));
                                 director.setText("Director - " + response.getString("Director"));
-                                writers.setText("Writer -\n" + response.getString("Writer"));
-                                plot.setText("Plot -\n" + response.getString("Plot"));
-                                runtime.setText("Runtime - " + response.getString("Runtime"));
-                                actors.setText("Actors -\n" + response.getString("Actors"));
-                                boxOffice.setText("Box Office - " + response.getString("BoxOffice"));
+                                writers.setText("Escritor -\n" + response.getString("Writer"));
+                                plot.setText("Argumento -\n" + response.getString("Plot"));
+                                runtime.setText("Tiempo - " + response.getString("Runtime"));
+                                actors.setText("Actores -\n" + response.getString("Actors"));
+                                boxOffice.setText("Taquilla - " + response.getString("BoxOffice"));
 
                                 Picasso.get()
                                         .load(response.getString("Poster"))
