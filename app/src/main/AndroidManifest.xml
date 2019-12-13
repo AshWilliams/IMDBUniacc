@@ -23,7 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.MovieDetailsActivity"
-            android:label="Movie Details"/>
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:label="Detalles"/>
     </application>
 
 </manifest>

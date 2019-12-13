@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             showInputDialog();
             return true;
         } else if (id == R.id.action_info) {
-            Toast.makeText(this, "made by using imdb API", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Usando API IMDB, Uniacc 2019", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }
